@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ------------------------ */
+/* CONFIGURACION DEL NAVBAR */
+/* ------------------------ */
+
+/* Configuracion del NAVBAR */
+.colorNavbar {
+  background-color: #DFD5D5;
+}
+
+/* Titulo principal del NAVBAR */
+.configTitulo {
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  color: #000000;
+}
+
+/* Titulo para REGISTRAR UN TERRENO */
+.configTituloRegistrarTerreno {
+  color: #5a5a5a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Barra de BUSCAR */
+.configBuscar{
+  float: right;
+  width: 70%;
+  border-radius: 20px;
+  margin-right: 1%;
+}
+
+/* Boton de BUSCAR */
+.configBotonBuscar{
+  float: right;
+  width: 25%;
+  border-radius: 20px;
+  margin-left: 1%;
+}
+
+
+
+/* -------------------------- */
+/* CONFIGURACION DE LOS CARDS */
+/* -------------------------- */
+
+/* Margen de cada CARD */
+.configCards{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* Configuracin del espaciado del CARD */
+p{
+  margin-bottom: -1px;
+}
+
+/* Configuracion para los iconos */
+.configBotonEdit{
+  float: right;
+  margin: 2%;
+  height: 24px;
+}
+
+.configBotonDelete{
+  float: right;
+  margin: 2%;
+  height: 24px;
+}
+
+/* Configuracion del MODAL ELIMINAR */
+
+/* Configuracion del titulo para el modal de eliminar */
+.tituloModalEliminar{
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.configTextEliminar{
+  font-size: 20px;
+  margin: 10%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.configBotonConfirmar{
+  border-radius: 18px;
+  width: 30%;
+  margin: 1%;
+  margin-bottom: 6%;
+  position:relative;
+  margin-left: auto;
+}
+
+.configBotonCancelar {
+  border-radius: 18px;
+  width: 30%;
+  margin: 1%;
+  margin-bottom: 6%;
+  position:relative;
+  margin-right: auto;
+}
+
+
+
+
