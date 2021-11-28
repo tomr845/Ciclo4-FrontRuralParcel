@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 import Inicio from './Componentes/Inicio';
 import Login from './Componentes/Login';
 import RegistrarTerreno from './Componentes/RegistrarTerreno';

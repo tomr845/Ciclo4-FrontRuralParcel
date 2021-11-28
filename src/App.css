@@ -37,14 +37,13 @@
   }
 }
 
-/* ------------------------ */
-/* CONFIGURACION DEL NAVBAR */
-/* ------------------------ */
 
-/* Configuracion del NAVBAR */
-.colorNavbar {
-  background-color: #DFD5D5;
-}
+
+
+/* ---------------------------------------------------- */
+/*               CONFIGURACION DEL NAVBAR               */
+/* ---------------------------------------------------- */
+
 
 /* Titulo principal del NAVBAR */
 .configTitulo {
@@ -80,6 +79,77 @@
 
 
 
+
+
+
+/* ---------------------------------------------------- */
+/*                       LOGIN                          */
+/* ---------------------------------------------------- */
+
+body{
+  background: rgb(207, 207, 207);
+}
+
+.configCard{
+  margin-top: 10%;
+}
+
+.configLogin {
+  margin-top: 8%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.configTituloLogin{
+  text-align: center;
+}
+
+.configTextLogin{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 50px;
+}
+
+.configCamposLogin{
+  width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textLoginLabel{
+  font-size: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.textLoginInput{
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.configBotonIngresar {
+  width: 60%;
+  margin: 2%;
+  margin-top: 5%;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+/* ---------------------------------------------------- */
+/*         PAGINA DONDE SE LISTAN LOS TERRENOS          */
+/* ---------------------------------------------------- */
+
 /* -------------------------- */
 /* CONFIGURACION DE LOS CARDS */
 /* -------------------------- */
@@ -88,6 +158,11 @@
 .configCards{
   margin-top: 2%;
   margin-bottom: 2%;
+}
+
+
+.card{
+  border-radius: 15px;
 }
 
 /* Configuracin del espaciado del CARD */
@@ -145,5 +220,98 @@ p{
 }
 
 
+/* Configuracion del MODAL ACTUALIZAR */
+
+.centerTituloModalEditar{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.tituloModalEditar{
+  text-align: center; 
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.centerAlingModal {
+  text-align: center;
+  margin: 1%;
+}
+
+.botonConfigModal {
+  margin: 1%;
+  border-radius: 20px;
+  width: 25%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------- */
+/*                  REGISTRAR TERRENOS                  */
+/* ---------------------------------------------------- */
+
+.espacioRegistrarTerreno{
+  margin-top: 2%;
+  width: 40%;
+  margin-bottom: 6%;
+}
+
+.configText{
+  font-weight: bolder;
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+textarea {
+  resize: none;
+  font-style: normal;
+  font-family: "Raleway", sans-serif !important;
+  margin-bottom: -1%;
+}
+
+.centerAling{
+  text-align: center;
+}
+
+.botonCofigCrear {
+  width: 30%;
+  border-radius: 20px;
+  margin-top: 1%;
+}
+
+input, label {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif !important;
+  margin-bottom: -1%;
+  
+}
+
+select{
+  font-style: normal;
+  font-family: "Raleway", sans-serif !important;
+  margin-bottom: -1%;
+}
+
+option{
+  font-style: normal;
+  font-family: "Raleway", sans-serif !important;
+  margin-bottom: -1%;
+}
+
+
+.border{
+  border-radius: 15px;
+}
 
 
