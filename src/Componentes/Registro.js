@@ -33,7 +33,7 @@ export class Registro extends Component {
                                     </div>
                                 </div>
                                 <div className="centerAling">
-                                    <Link  class="btn-primary btn configBotonRegistro" to="registrar-usuario">Crear cuenta</Link>
+                                    <Link  class="btn-primary btn configBotonRegistro" to="/">Crear cuenta</Link>
                                     <Link  class="btn-outline-danger btn configBotonRegistro" to="/">Cancelar</Link>
                                 </div>
                             </div>
