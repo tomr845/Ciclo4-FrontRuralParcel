@@ -21,8 +21,9 @@ export class login extends Component {
                             </div>
                             <div className="centerAling">
                                 <Link type="button" class="btn btn-primary configBotonIngresar" to="inicio">Iniciar Sesión</Link>
+                                <Link  class="btn-outline-success btn configRegistro" to="registrar-usuario">Registrarme</Link>
                             </div>
-                        
+
                         </form>
                     </div>
                 </div>
