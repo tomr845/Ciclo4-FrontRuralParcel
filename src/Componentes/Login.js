@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import axios from "axios"
 import appConfig from '../appConfig'
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 export class login extends Component {
 
@@ -22,7 +21,7 @@ export class login extends Component {
 
     async handleClick(){
         let response = await axios.post(appConfig.urlBase + 'credenciales', this.state);
-        if(response.data.length == 1) {
+        if(response.data.length != 1) {
             window.location.href = "/inicio";
         } else {
             alert('Correo y/o contraseña incorrecta');
