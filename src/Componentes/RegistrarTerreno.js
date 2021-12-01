@@ -141,8 +141,8 @@ export class registrarTerreno extends Component {
               <label className="form-label configText">¿Desea arrendar o vender?</label>
               <select className="form-select border" name="cmbTipoServicio" aria-label="Default select example" onChange={this.handleChange}>
                 <option value="null" hidden selected>Seleccione alguna opción</option>
-                <option value="Arrendar">Arrendar</option>
-                <option value="Vender">Vender</option>
+                <option value="Arriendo">Arrendar</option>
+                <option value="Venta">Vender</option>
               </select>
             </div>
             <div className="centerAling">
