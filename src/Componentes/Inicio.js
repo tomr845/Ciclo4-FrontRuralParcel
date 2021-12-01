@@ -19,10 +19,7 @@ export class Inicio extends Component {
                     <Link className="nav-link configTituloRegistrarTerreno" to="/registrar-terreno">Registrar un terreno</Link>
                   </li>
                 </ul>
-                <form className="col-lg-6">
-                  <button className="btn btn-success configBotonBuscar" type="submit">Buscar</button>
-                  <input className="form-control configBuscar" type="search" placeholder="Buscar nuevos terrenos"/>
-                </form>
+                <Link className="btn btn-danger configBotonBuscar" type="submit" to="/">Cerrar Sesión</Link>
               </div>
             </div>
           </nav>
