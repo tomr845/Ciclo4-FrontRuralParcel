@@ -110,9 +110,9 @@ export class registrarTerreno extends Component {
               <label className="form-label configText">Ubicación del terreno</label>
               <select className="form-select border" name="cmbUbicacion" aria-label="Default select example" onChange={this.handleChange}>
                 <option value="null" hidden selected>Seleccione la ubicación del terreno</option>
-                <option value="Neiva">Neiva</option>
-                <option value="Bogotá">Bogotá</option>
-                <option value="Antoquia">Antioquia</option>
+                <option value="Garzón">Garzon</option>
+                <option value="Campoalegre">Campoalegre</option>
+                <option value="La Plata">La Plata</option>
               </select>
             </div>
             <div className="mb-3">
