@@ -26,11 +26,12 @@ export class Registro extends Component {
     async handleClick(){
         let response = await axios.post(appConfig.urlBase + 'registrar-usuario', this.state);
 
-        if(response.data == 200) {
-            alert('registro satisfactorio');
-            window.location.href = "/login";
+        if(response.data == 'OK') {
+            alert('Registro Exitoso!');
+            window.location.href = "/";
         } else {
-            alert(response.data);
+            alert('Ah ocurrido un error, intentelo nuevamente');
+            window.location.href = "/registrar-usuario";
         }
     }
 
