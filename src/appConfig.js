@@ -1,4 +1,4 @@
-let urlBase = 'http://localhost:8000/';
+let urlBase = 'https://backruralparcel.herokuapp.com/';
 
 let config = {
     urlBase: urlBase,
