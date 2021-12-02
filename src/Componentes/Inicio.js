@@ -145,7 +145,7 @@ export class Inicio extends Component {
                   <img src="https://images.pexels.com/photos/4406619/pexels-photo-4406619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" className="card-img-top" alt="..."/>
                   <div className="card-body">
                     <h5 className="card-title">Terreno en {parcela.opcion_servicio}
-                      <svg data-bs-toggle="modal" data-bs-target="#modalDelete" type="button" xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-trash-fill configBotonDelete" viewBox="0 0 16 16">
+                      <svg data-bs-toggle="modal" data-bs-target="#modalDelete" type="button" onClick={() => this.eliminarParcela(parcela._id)} xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-trash-fill configBotonDelete" viewBox="0 0 16 16">
                         <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
                       </svg>
                       <svg data-bs-toggle="modal" data-bs-target="#modalEdit" type="button" onClick={() => this.obtenerUnaParcela(parcela._id)} xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-pencil-square configBotonEdit" viewBox="0 0 16 16">
@@ -160,25 +160,7 @@ export class Inicio extends Component {
                     <p className="card-text">Descripción: {parcela.descripcion}</p>
                   </div>
                 </div>
-
-
-                <div className="modal fade" id="modalDelete" tabindex="-1" data-bs-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                    <div className="modal-content">
-                      <h5 className="tituloModalEliminar" id="exampleModalLabel">Eliminar terreno</h5>
-                      <div className="text-center configTextEliminar">
-                        ¿Desea ELIMINAR el terreno?
-                      </div>
-                      <div className="text-center border-light">
-                        <div className="card-body">
-                          <button type="button" className="btn btn-danger configBotonConfirmar" onClick={() => this.eliminarParcela(parcela._id)}>Confirmar</button>
-                          <button type="button" className="btn btn-primary configBotonCancelar" data-bs-dismiss="modal">Cancelar</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+                
 
                 <div className="modal fade" id="modalEdit" tabindex="-1" data-bs-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
